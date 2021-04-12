@@ -17,7 +17,6 @@ class runFiles(Resource):
             print("Error Path Does't Exist")
         # return jsonify({'data': getvalues['total']})
         return None
-
 class getValues(Resource):
     def post(self,jsonObj):
         return jsonObj
